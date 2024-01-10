@@ -297,7 +297,7 @@ def payment():
     print()
     try:
         hours = float(input("Wpisz ile godzin przepracowałeś w danym miesiącu: "))
-        hourly_rate = 23.50
+        hourly_rate = 27.70
         payment = hourly_rate * hours
         print()
         print("Twoja wypłata za ten miesiąc wynosi:", payment, "zł")
